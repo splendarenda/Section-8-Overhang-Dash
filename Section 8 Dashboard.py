@@ -9,7 +9,7 @@ st.title("Section 8 Overhang Risk Dashboard")
 
 # --- Unit Data Editor ---
 st.subheader("1. Input Unit Mix and Rents")
-unit_data = st.experimental_data_editor(pd.DataFrame({
+unit_data = st.data_editor(pd.DataFrame({
     'Unit Type': ['1BR', '2BR', '3BR'],
     'Units': [10, 20, 5],
     'LIHTC Max Rent': [1000, 1200, 1400],
